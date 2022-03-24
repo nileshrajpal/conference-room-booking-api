@@ -1,23 +1,17 @@
-# Conference Room Booking
+# Conference Room Booking API
 
-* The Mini-Project topic is Conference Room Booking.
-* The project helps to manage the booking of conference rooms in an organization.
+* Backend for Web Application for Conference Room Booking built using Django Rest Framework.
+* The Web Application helps to manage the booking of conference rooms in an organization.
 
 # Technologies
 
+* Django
 * Django Rest Framework
 * PostgreSQL
 
-# Prerequisites
-
-* Python 3.6+
-* PostgreSQL
-* pip
-* venv
-
 # Installing Requirements
 
-* `pip install -U -r requirements.txt`
+* `pip3 install -r requirements.txt`
 
 # Setting up PostgreSQL
 
@@ -27,9 +21,9 @@
 
 # Running Migrations
 
-* `python manage.py makemigrations`
-* `python manage.py migrate`
+* `python3 manage.py makemigrations`
+* `python3 manage.py migrate`
 
 # Running the project
 
-* `python manage.py runserver`
+* `python3 manage.py runserver`
